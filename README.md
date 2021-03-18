@@ -1,3 +1,7 @@
+![](https://img.shields.io/badge/Chess-red)
+![](https://img.shields.io/badge/Python-blue)
+![](https://img.shields.io/badge/PGN-yellow)
+
 # pgn2fixture
 
 A module that translates PGN files into Django fixtures
@@ -81,6 +85,7 @@ As for the PK for the database, you will need to implement a way to create them 
 - GitHub: [@pointerish](https://github.com/pointerish)
 - Twitter: [@pointerish](https://twitter.com/pointerish)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/josias-alvarado/)
+- [Blog](https://josias-alvarado.me)
 
 ## Contributing
 
