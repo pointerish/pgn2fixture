@@ -1,11 +1,10 @@
-from utils import clean
-from utils import extract_tag_roster
+import utils
 
 
 class Game:
 
     def __init__(self, raw_game_data) -> None:
-        self.tags = extract_tag_roster(clean(raw_game_data))
+        self.tags = utils.extract_tag_roster(utils.clean(raw_game_data))
 
     def __str__(self):
         return f'{self.white} - {self.black} | {self.event}'
