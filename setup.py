@@ -1,6 +1,7 @@
 from setuptools import setup
 
 if __name__ == '__main__':
+    long_description = open('README.md').read()
     setup(
         name='pgn2fixture',
         version='1.0',
@@ -12,6 +13,8 @@ if __name__ == '__main__':
             'pgn2fixture',
             ],
         license='MIT',
+        long_description=long_description,
+        long_description_content_type='text/markdown',
         classifiers=[
             'License :: OSI Approved :: MIT License',
             'Programming Language :: Python :: 3.3',
