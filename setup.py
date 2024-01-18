@@ -1,9 +1,6 @@
 from setuptools import setup
 
 if __name__ == '__main__':
-
-    long_description = 'A very simple PGN to Django fixture converter.'
-
     setup(
         name='pgn2fixture',
         version='1.0',
@@ -14,7 +11,6 @@ if __name__ == '__main__':
         packages=[
             'pgn2fixture',
             ],
-        long_description=long_description
         license='MIT',
         classifiers=[
             'License :: OSI Approved :: MIT License',
