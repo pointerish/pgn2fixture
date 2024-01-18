@@ -14,6 +14,7 @@ if __name__ == '__main__':
         packages=[
             'pgn2fixture',
             ],
+        long_description=long_description
         license='MIT',
         classifiers=[
             'License :: OSI Approved :: MIT License',
