@@ -2,7 +2,7 @@ from setuptools import setup
 
 if __name__ == '__main__':
 
-    long_description = open('README.md').read()
+    long_description = 'A very simple PGN to Django fixture converter.'
 
     setup(
         name='pgn2fixture',
