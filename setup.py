@@ -14,7 +14,7 @@ if __name__ == '__main__':
         packages=[
             'pgn2fixture',
             ],
-        long_description=long_description,
+        long_description='A very simple PGN to Django fixture converter.',
         license='MIT',
         classifiers=[
             'License :: OSI Approved :: MIT License',
