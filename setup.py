@@ -4,7 +4,7 @@ if __name__ == '__main__':
     long_description = open('README.md').read()
     setup(
         name='pgn2fixture',
-        version='1.0',
+        version='1.0.3',
         description='A very simple PGN to Django fixture converter.',
         author='Josias Alvarado',
         author_email='josiasjag@gmail.com',
